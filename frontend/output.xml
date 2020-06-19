@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document title="SSLScan Results" version="1.11.5" web="http://github.com/rbsec/sslscan">
+ <ssltest host="96.43.149.26" port="443">
+  <renegotiation supported="0" secure="0" />
+  <heartbleed sslversion="TLSv1.2" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.1" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.0" vulnerable="0" />
+  <cipher status="preferred" sslversion="TLSv1.2" bits="256" cipher="ECDHE-RSA-AES256-GCM-SHA384" id="0xC030" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="ECDHE-RSA-AES128-GCM-SHA256" id="0xC02F" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="ECDHE-RSA-AES256-SHA384" id="0xC028" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="ECDHE-RSA-AES128-SHA256" id="0xC027" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-GCM-SHA384" id="0x9D" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-GCM-SHA256" id="0x9C" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-SHA256" id="0x3D" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-SHA256" id="0x3C" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-SHA" id="0x35" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-SHA" id="0x2F" />
+  <cipher status="preferred" sslversion="TLSv1.1" bits="256" cipher="AES256-SHA" id="0x35" />
+  <cipher status="accepted" sslversion="TLSv1.1" bits="128" cipher="AES128-SHA" id="0x2F" />
+  <certificate>
+   <signature-algorithm>sha256WithRSAEncryption</signature-algorithm>
+   <pk error="false" type="RSA" bits="2048" />
+   <subject><![CDATA[www.salesforce.com]]></subject>
+   <altnames><![CDATA[DNS:salesforce.com, DNS:sfdcstatic.com, DNS:chatter.com, DNS:force.com, DNS:data.com, DNS:*.sfdcstatic.com, DNS:*.chatter.com, DNS:*.force.com, DNS:*.data.com, DNS:site.com, DNS:www.site.com, DNS:dreamforce.com, DNS:www.dreamforce.com, DNS:blogs.salesforce.com, DNS:quotable.com, DNS:www.quotable.com, DNS:einstein.com, DNS:www.einstein.com, DNS:c.salesforce.com, DNS:origin-c.salesforce.com, DNS:*.heywire.com, DNS:heywire.com, DNS:*.beyondcore.com, DNS:beyondcore.com, DNS:*.twinprime.com, DNS:twinprime.com, DNS:*.gravitytank.com, DNS:gravitytank.com, DNS:*.krux.com, DNS:krux.com, DNS:*.sequence.com, DNS:sequence.com, DNS:*.metamind.io, DNS:metamind.io, DNS:www.salesforce.com, DNS:salesforceiq.com, DNS:www.salesforceiq.com, DNS:relateiq.com, DNS:www.relateiq.com, DNS:marketingcloud.com, DNS:www.marketingcloud.com, DNS:www.steelbrick.com, DNS:steelbrick.com, DNS:radian6.com, DNS:www.radian6.com, DNS:buddymedia.com, DNS:www.buddymedia.com, DNS:social.com, DNS:www.social.com, DNS:desk.com, DNS:www.desk.com, DNS:www.sequence.com, DNS:pardot.com, DNS:www.pardot.com, DNS:demandware.com, DNS:www.demandware.com, DNS:cotweet.com, DNS:www.cotweet.com, DNS:salesforcemarketingcloud.com, DNS:www.salesforcemarketingcloud.com, DNS:weinvoiceit.com, DNS:www.weinvoiceit.com, DNS:content.exacttarget.com, DNS:careers.exacttarget.com, DNS:blog.steelbrick.com, DNS:info.steelbrick.com, DNS:help.salesforceiq.com, DNS:www.cloudcraze.com, DNS:cloudcraze.com, DNS:attic.io, DNS:www.attic.io, DNS:public.steelbrick.com, DNS:adminworkshop.salesforce.com, DNS:dreamforce.salesforce.com, DNS:info.salesforce.com, DNS:work.salesforce.com, DNS:bootcamp.salesforce.com, DNS:conference.salesforce.com, DNS:millerheiman.salesforce.com, DNS:promo.salesforce.com, DNS:smallbusiness.salesforce.com, DNS:verticalresponse.salesforce.com, DNS:ideasjapan.salesforce.com, DNS:www.sforce.com, DNS:sforce.com, DNS:documentforce.com, DNS:www.documentforce.com, DNS:govforce.com, DNS:www.govforce.com, DNS:developer.force.com, DNS:developer.appexchange.com, DNS:appcloud.com, DNS:www.appcloud.com, DNS:m.dreamforce.com, DNS:eventjp.salesforce.com]]></altnames>
+   <issuer><![CDATA[DigiCert SHA2 Secure Server CA]]></issuer>
+   <self-signed>false</self-signed>
+   <not-valid-before>Jun 23 00:00:00 2018 GMT</not-valid-before>
+   <not-valid-after>Jun 22 12:00:00 2020 GMT</not-valid-after>
+   <expired>false</expired>
+  </certificate>
+ </ssltest>
+ <ssltest host="96.43.149.26" port="443">
+  <renegotiation supported="0" secure="0" />
+  <heartbleed sslversion="TLSv1.2" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.1" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.0" vulnerable="0" />
+  <cipher status="preferred" sslversion="TLSv1.2" bits="256" cipher="ECDHE-RSA-AES256-GCM-SHA384" id="0xC030" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="ECDHE-RSA-AES128-GCM-SHA256" id="0xC02F" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="ECDHE-RSA-AES256-SHA384" id="0xC028" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="ECDHE-RSA-AES128-SHA256" id="0xC027" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-GCM-SHA384" id="0x9D" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-GCM-SHA256" id="0x9C" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-SHA256" id="0x3D" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-SHA256" id="0x3C" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="AES256-SHA" id="0x35" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="128" cipher="AES128-SHA" id="0x2F" />
+  <cipher status="preferred" sslversion="TLSv1.1" bits="256" cipher="AES256-SHA" id="0x35" />
+  <cipher status="accepted" sslversion="TLSv1.1" bits="128" cipher="AES128-SHA" id="0x2F" />
+  <certificate>
+   <signature-algorithm>sha256WithRSAEncryption</signature-algorithm>
+   <pk error="false" type="RSA" bits="2048" />
+   <subject><![CDATA[www.salesforce.com]]></subject>
+   <altnames><![CDATA[DNS:salesforce.com, DNS:sfdcstatic.com, DNS:chatter.com, DNS:force.com, DNS:data.com, DNS:*.sfdcstatic.com, DNS:*.chatter.com, DNS:*.force.com, DNS:*.data.com, DNS:site.com, DNS:www.site.com, DNS:dreamforce.com, DNS:www.dreamforce.com, DNS:blogs.salesforce.com, DNS:quotable.com, DNS:www.quotable.com, DNS:einstein.com, DNS:www.einstein.com, DNS:c.salesforce.com, DNS:origin-c.salesforce.com, DNS:*.heywire.com, DNS:heywire.com, DNS:*.beyondcore.com, DNS:beyondcore.com, DNS:*.twinprime.com, DNS:twinprime.com, DNS:*.gravitytank.com, DNS:gravitytank.com, DNS:*.krux.com, DNS:krux.com, DNS:*.sequence.com, DNS:sequence.com, DNS:*.metamind.io, DNS:metamind.io, DNS:www.salesforce.com, DNS:salesforceiq.com, DNS:www.salesforceiq.com, DNS:relateiq.com, DNS:www.relateiq.com, DNS:marketingcloud.com, DNS:www.marketingcloud.com, DNS:www.steelbrick.com, DNS:steelbrick.com, DNS:radian6.com, DNS:www.radian6.com, DNS:buddymedia.com, DNS:www.buddymedia.com, DNS:social.com, DNS:www.social.com, DNS:desk.com, DNS:www.desk.com, DNS:www.sequence.com, DNS:pardot.com, DNS:www.pardot.com, DNS:demandware.com, DNS:www.demandware.com, DNS:cotweet.com, DNS:www.cotweet.com, DNS:salesforcemarketingcloud.com, DNS:www.salesforcemarketingcloud.com, DNS:weinvoiceit.com, DNS:www.weinvoiceit.com, DNS:content.exacttarget.com, DNS:careers.exacttarget.com, DNS:blog.steelbrick.com, DNS:info.steelbrick.com, DNS:help.salesforceiq.com, DNS:www.cloudcraze.com, DNS:cloudcraze.com, DNS:attic.io, DNS:www.attic.io, DNS:public.steelbrick.com, DNS:adminworkshop.salesforce.com, DNS:dreamforce.salesforce.com, DNS:info.salesforce.com, DNS:work.salesforce.com, DNS:bootcamp.salesforce.com, DNS:conference.salesforce.com, DNS:millerheiman.salesforce.com, DNS:promo.salesforce.com, DNS:smallbusiness.salesforce.com, DNS:verticalresponse.salesforce.com, DNS:ideasjapan.salesforce.com, DNS:www.sforce.com, DNS:sforce.com, DNS:documentforce.com, DNS:www.documentforce.com, DNS:govforce.com, DNS:www.govforce.com, DNS:developer.force.com, DNS:developer.appexchange.com, DNS:appcloud.com, DNS:www.appcloud.com, DNS:m.dreamforce.com, DNS:eventjp.salesforce.com]]></altnames>
+   <issuer><![CDATA[DigiCert SHA2 Secure Server CA]]></issuer>
+   <self-signed>false</self-signed>
+   <not-valid-before>Jun 23 00:00:00 2018 GMT</not-valid-before>
+   <not-valid-after>Jun 22 12:00:00 2020 GMT</not-valid-after>
+   <expired>false</expired>
+  </certificate>
+ </ssltest>
+ <ssltest host="8.8.8.8" port="443">
+  <renegotiation supported="0" secure="0" />
+  <heartbleed sslversion="TLSv1.2" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.1" vulnerable="0" />
+  <heartbleed sslversion="TLSv1.0" vulnerable="0" />
+  <cipher status="preferred" sslversion="TLSv1.2" bits="128" cipher="ECDHE-RSA-AES128-GCM-SHA256" id="0xC02F" curve="P-256" ecdhebits="256" />
+  <cipher status="accepted" sslversion="TLSv1.2" bits="256" cipher="ECDHE-RSA-AES256-GCM-SHA384" id="0xC030" curve="P-256" ecdhebits="256" />
+  <certificate>
+   <signature-algorithm>sha256WithRSAEncryption</signature-algorithm>
+   <pk error="false" type="RSA" bits="2048" />
+   <subject><![CDATA[dns.google]]></subject>
+   <altnames><![CDATA[DNS:dns.google, DNS:*.dns.google.com, DNS:8888.google, DNS:dns.google.com, DNS:dns64.dns.google, IP Address:2001:4860:4860:0:0:0:0:64, IP Address:2001:4860:4860:0:0:0:0:6464, IP Address:2001:4860:4860:0:0:0:0:8844, IP Address:2001:4860:4860:0:0:0:0:8888, IP Address:8.8.4.4, IP Address:8.8.8.8]]></altnames>
+   <issuer><![CDATA[GTS CA 1O1]]></issuer>
+   <self-signed>false</self-signed>
+   <not-valid-before>May 26 15:20:02 2020 GMT</not-valid-before>
+   <not-valid-after>Aug 18 15:20:02 2020 GMT</not-valid-after>
+   <expired>false</expired>
+  </certificate>
+ </ssltest>
+</document>
