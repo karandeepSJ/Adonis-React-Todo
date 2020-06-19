@@ -13,7 +13,8 @@ npm i -g @adonisjs/cli
 ```sql
 CREATE DATABASE todo;
 ```
-2. ```bash
+2.
+```bash
 cd backend
 ```
 3. Rename the `.env.example` file to `.env`. Set the SQL user(`DB_USER`) and password(`DB_PASSWORD`) in this file.
